@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #d79eee;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font: Didot;
+}
+
+body {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  font-family: didot;
+  text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  p {
+    text-align: center;
+    padding: 30px;
+  }
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.contact-link {
+  color: var(--primary-color);
+}
+
+.photo-link {
+  color: var(--primary-color);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
